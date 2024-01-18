@@ -1,4 +1,6 @@
 #!/bin/bash
+# Script to download number of images 
+# getting height, weight and number as user inputs 
 
 # Function to generate a random number within a range
 
@@ -8,7 +10,7 @@ read -p "Enter the desired width: " width
 read -p "Enter the number of images to download: " num_images
 
 # Create a directory to store downloaded images
-mkdir -p downloaded_images
+mkdir -p img
 
 # Iterate through the specified number of images
 for ((i=1; i<=$num_images; i++)); do
@@ -17,7 +19,7 @@ for ((i=1; i<=$num_images; i++)); do
   image_url="https://picsum.photos/${width}/${height}"
 
   # Download the image and save it with a sequentially numbered file name
-  filename="downloaded_images/random_image_${i}.jpg"
+  filename="img/img${i}.jpg"
   wget -O "$filename" "$image_url"
   echo "Image $i downloaded successfully as $filename"
 done
