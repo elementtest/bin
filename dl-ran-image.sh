@@ -2,8 +2,6 @@
 # Script to download number of images 
 # getting height, weight and number as user inputs 
 
-# Function to generate a random number within a range
-
 # Get user input for height, width, and the number of images
 read -p "Enter the desired height: " height
 read -p "Enter the desired width: " width
