@@ -7,4 +7,3 @@ echo "$input" >> ~/.3emac.rt
 #clear entire file
 echo "" > ~/.3emac.rt
 clear
-ls -a
