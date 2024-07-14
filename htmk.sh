@@ -14,7 +14,7 @@ cp ../boilerplate.html index.html  || { echo "failed to copy boilerplate.html"; 
 
 cp ../stylesboilerplate.css styles.css || { echo "failed to copy stylesboilerplate.css"; exit 1; }
 
-nvim index.html
+nvim *
 
 
 
