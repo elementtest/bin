@@ -8,4 +8,4 @@ echo "$input" >> ~/.3emac.rt
 #echo "" > ~/.3emac.rt
 #clear prompt and then add neofetch because it makes it look cool
 clear
-neofetch
+
