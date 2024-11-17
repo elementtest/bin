@@ -4,7 +4,7 @@
 # add a random number to practice typing numbers
 # function to get random num between 0 and 32767
 get_random_number() {
-    echo $((RANDOM))
+     echo $((RANDOM))
 }
 
 # Geenerate a random number by concatenating multiple random numbers
