@@ -6,10 +6,4 @@ echo "$input" >> ~/.3emac.rt
 #echo "$input" >> ~/.3emac.rtbackup
 #clear entire file
 #echo "" > ~/.3emac.rt
-<<<<<<< HEAD
 clear
-=======
-#clear prompt and then add neofetch because it makes it look cool
-clear
-
->>>>>>> 738874717f9eeca138f987abf86adec5ca9fe061
