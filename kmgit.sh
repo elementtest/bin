@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 #adds all files in folder to github elementtest7@gmail.com
 
 # add a random number to practice typing numbers
