@@ -19,7 +19,7 @@ read -p "Enter the random number to continue: " user_input
 
 # Check if the input matches the random number
 if [[ "$user_input" -eq "$random_number" ]]; then
-    echo "ACCESS GRANTED!!!!!!!!!!"
+    echo "::::ACCESS GRANTED:::::"
     
     # Git commands to add, commit, and push
     git add *
@@ -27,6 +27,6 @@ if [[ "$user_input" -eq "$random_number" ]]; then
     git commit -m "$desc"
     git push origin main
 else
-    echo "Incorrect random number. Please try again."
+    echo "DENIED"
 fi
 
