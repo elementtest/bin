@@ -19,7 +19,7 @@ read -p "Enter the random number to continue: " user_input
 
 # Check if the input matches the random number
 if [[ "$user_input" -eq "$random_number" ]]; then
-    echo "Random number matched. Proceeding with git commands..."
+    echo "ACCESS GRANTED!!!!!!!!!!"
     
     # Git commands to add, commit, and push
     git add *
