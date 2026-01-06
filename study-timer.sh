@@ -1,5 +1,7 @@
 #!/bin/bash
 # basic script to keep track of when i started studying.  
+# the time stamp will be saved INSIDE THE FILE
+# only one time stamp will be saved every time it's executed
 
 # --- STUDY TIMER SCRIPT ---
 # Previous timestamp will be stored in this variable:
