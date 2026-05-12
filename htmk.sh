@@ -7,7 +7,7 @@ mkdir "$dirname" || { echo "Failed to create directory"; exit 1; }
 cd "$dirname" || { echo "Failed to change directory"; exit 1; }
 
 touch index.html
-touch styles.css
+touch style.css
 touch script.js
 
 nvim *
