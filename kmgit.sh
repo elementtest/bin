@@ -22,7 +22,7 @@ if [[ "$user_input" -eq "$random_number" ]]; then
     echo "::::ACCESS GRANTED:::::"
     
     # Git commands to add, commit, and push
-    git add *
+    git add .
     read -p "Git commit description: " desc
     git commit -m "$desc"
     git push origin main
